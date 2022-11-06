@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>X Metaverse Pro</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="grid-container">
+     <!-- Header -->
+      <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+             <h4>X Metaverse Pro</h4> 
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">dashboard</span> Dashboard
+          </li>
+          
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">settings</span> Settings
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">
+            account_circle
+            </span> Profile</li>
+            <li class="sidebar-list-item">
+              <span class="material-icons-outlined">
+                notifications
+                </span> Notification</li>
+                <li class="sidebar-list-item border"> 
+                  <span class="material-icons-outlined">logout</span> Logout
+                </li>         
+        </ul>
+      </aside>
+      <!-- End Sidebar -->
+
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
